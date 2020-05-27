@@ -6,9 +6,43 @@
 <body>
 
 	<script>
+	/* Basic 1 | Crystal Gazer */
+
+	function crystalGazer(numb_of_child, partn_name, location, job_title){
+
+		var result = "You will be a " + job_title + " in "+ location + " and married to " +partn_name + "with " + numb_of_child + "." ; 
+
 		
+		console.log(result);
+		return result;
 		
+	}	
+
+
+		var Title = crystalGazer (2, "Fred", "Vienna", "Boss");
+		console.log(crystalGazer);
+
+	
+	function crystalGazer2(){
+		var job_title = prompt("type your job title");
+		var location = prompt("type your location");
+		var partn_name = prompt("type your partner name");
+		var numb_of_child = prompt("type number of child");
+
+		var result = "You will be a " + job_title + " in "+ location + " and married to " +partn_name + "with " + numb_of_child + "." ; 
+
+		
+		console.log(result);
+		return result;
+		
+	}		
+	crystalGazer2();
+
 	</script>
 
 </body>
 </html>
+
+
+
+		
